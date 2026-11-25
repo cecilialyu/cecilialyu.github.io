@@ -302,6 +302,30 @@
   .exp-bullets li::before{content:"—";position:absolute;left:0;color:var(--ink-dim);}
   .exp-bullets strong{color:var(--ink);font-weight:600;}
 
+
+  /* ---------- MOBILE (max-width: 640px) ---------- */
+  @media (max-width: 640px){
+    nav{padding:1rem .9rem;flex-wrap:wrap;gap:.5rem;}
+    nav .links{gap:.65rem;flex-wrap:wrap;justify-content:flex-end;}
+    nav a{font-size:.75rem;}
+    .hero-heading{font-size:clamp(2.1rem,11vw,2.8rem) !important;}
+    .hero-bottom{flex-direction:column;align-items:flex-start;padding:0 1rem;gap:.9rem;}
+    .hero-sub{max-width:100%;}
+    .hero-photo-bg{height:52vh;}
+    .about{min-height:auto;padding:4rem 1.2rem;}
+    .services{padding:3rem 1rem 4rem;border-radius:24px 24px 0 0;}
+    .service-item{gap:1rem;}
+    .projects{padding:0 1rem;}
+    .proj-card-outer{position:static;padding-bottom:1.2rem;}
+    .proj-grid{grid-template-columns:1fr;}
+    .proj-grid .col2{height:auto;min-height:180px;}
+    .proj-grid .col1 img:first-child,.proj-grid .col1 img:last-child{height:140px;}
+    .exp-item{grid-template-columns:44px 1fr;gap:.7rem;padding:1.2rem 0;}
+    .experience{padding:3rem 1rem;}
+    .contact-section{padding:4rem 1.2rem 3rem;}
+    .cursor-glow,.cursor-dot,.cursor-ring{display:none !important;}
+  }
+
 </style>
 </head>
 <body>
@@ -332,7 +356,7 @@
 
   <div class="hero-bottom">
     <p class="hero-sub reveal d2">a PR &amp; integrated marketing communications strategist turning consumer insight into stories that stick</p>
-    <a href="mailto:XimingLyu2026@u.northwestern.edu" class="btn-contact reveal d3">Contact Me</a>
+    <div style="display:flex;gap:.6rem;flex-wrap:wrap;"><a href="mailto:XimingLyu2026@u.northwestern.edu" class="btn-contact reveal d3">Contact Me</a><a href="resume.html" class="btn-ghost reveal d3">Resume</a></div>
   </div>
   <div class="photo-credit reveal d4">photograph — cecilia lyu, boston</div>
 </section>
@@ -598,6 +622,7 @@
   <h2 class="section-heading hero-heading reveal">Let&apos;s talk</h2>
   <p class="hero-sub reveal d1" style="max-width:420px;">Open to full-time roles in PR, integrated marketing communications, and marketing analytics in Chicago — starting after my December 2026 graduation.</p>
   <a href="mailto:XimingLyu2026@u.northwestern.edu" class="btn-contact reveal d2">Contact Me</a>
+  <a href="resume.html" class="btn-ghost reveal d2">View Resume</a>
   <div class="contact-links reveal d3">
     <a href="mailto:XimingLyu2026@u.northwestern.edu">XimingLyu2026@u.northwestern.edu</a>
     <a href="https://www.linkedin.com/in/ximing-lyu-653293401" target="_blank" rel="noopener">LinkedIn</a>

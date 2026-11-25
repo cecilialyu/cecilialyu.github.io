@@ -50,6 +50,18 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:1.6rem
 .next-project a:hover{opacity:1;}
 footer{padding:2rem 1.4rem 2.4rem;text-align:center;color:var(--ink-dim);font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;}
 @media(max-width:640px){.img-row.two,.img-row.three{grid-template-columns:1fr;}}
+
+  /* ---------- MOBILE (max-width: 640px) ---------- */
+  @media (max-width: 640px){
+    nav{padding:1rem;}
+    .hero{padding:2rem 1.2rem !important;}
+    h1.hero-heading{font-size:clamp(1.8rem,8vw,2.4rem) !important;line-height:1.15;}
+    .meta-row{flex-direction:column !important;gap:1rem !important;}
+    .img-row.two,.img-row.three{grid-template-columns:1fr !important;}
+    .hero-img-wrap img{height:auto !important;}
+    .dek{font-size:1rem !important;}
+  }
+
 </style>
 </head>
 <body>
