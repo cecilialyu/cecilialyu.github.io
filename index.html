@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cecilia Lyu — Brand &amp; Marketing Strategist</title>
+<title>Cecilia Lyu — PR &amp; Integrated Marketing Communications</title>
+  <meta name="description" content="Cecilia Lyu — Northwestern Medill M.S. in Integrated Marketing Communications (Dec 2026), Boston University B.S. in Public Relations. Bilingual Mandarin/English. PR, media & influencer relations, and integrated marketing in Chicago.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -287,6 +288,20 @@
 
   /* ---------- number count-up ---------- */
   .count-up{display:inline-block;}
+
+  /* ---------- EXPERIENCE ---------- */
+  .experience{padding:4rem 1.2rem;max-width:900px;margin:0 auto;}
+  .experience .section-heading{text-align:center;margin-bottom:3rem;}
+  .exp-item{display:grid;grid-template-columns:64px 1fr;gap:1rem;padding:1.6rem 0;border-top:1px solid var(--line);}
+  .exp-item:last-child{border-bottom:1px solid var(--line);}
+  .exp-num{font-weight:900;font-size:clamp(1.4rem,3vw,2rem);line-height:1;color:var(--ink-dim);}
+  .exp-role{font-weight:600;text-transform:uppercase;font-size:clamp(1rem,2.2vw,1.4rem);}
+  .exp-org{color:var(--ink-dim);font-size:.9rem;letter-spacing:.04em;margin:.25rem 0 .7rem;}
+  .exp-bullets{list-style:none;display:flex;flex-direction:column;gap:.45rem;}
+  .exp-bullets li{font-weight:300;line-height:1.55;color:var(--ink-dim);font-size:clamp(.85rem,1.5vw,1rem);padding-left:1rem;position:relative;}
+  .exp-bullets li::before{content:"—";position:absolute;left:0;color:var(--ink-dim);}
+  .exp-bullets strong{color:var(--ink);font-weight:600;}
+
 </style>
 </head>
 <body>
@@ -301,6 +316,7 @@
     <div class="links">
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div>
@@ -311,11 +327,11 @@
   </div>
 
   <div class="hero-heading-wrap">
-    <h1 class="hero-heading reveal">Hi, i&apos;m cecilia</h1>
+    <h1 class="hero-heading reveal">Hi, I&apos;m Cecilia</h1>
   </div>
 
   <div class="hero-bottom">
-    <p class="hero-sub reveal d2">a brand strategist turning consumer insight into stories that stick</p>
+    <p class="hero-sub reveal d2">a PR &amp; integrated marketing communications strategist turning consumer insight into stories that stick</p>
     <a href="mailto:XimingLyu2026@u.northwestern.edu" class="btn-contact reveal d3">Contact Me</a>
   </div>
   <div class="photo-credit reveal d4">photograph — cecilia lyu, boston</div>
@@ -336,11 +352,39 @@
   <div class="about-deco reveal fromright d3" style="bottom:6%;right:5%;font-size:clamp(1.8rem,5vw,3.4rem);">✧</div>
 
   <h2 class="section-heading hero-heading reveal">About me</h2>
-  <p class="about-copy" id="aboutCopy">Currently pursuing a Master&apos;s in Integrated Marketing Communications at Northwestern&apos;s Medill School, i turn research into narratives that move people to act. From an independent Netflix subscriber-trend study to a full brand launch for a local farmers market, i enjoy building strategies that are equal parts data-driven and story-led. Let&apos;s build something that resonates.</p>
+  <p class="about-copy" id="aboutCopy">Currently pursuing a Master&apos;s in Integrated Marketing Communications at Northwestern&apos;s Medill School (Dec 2026), I turn research into narratives that move people to act. From an independent Netflix subscriber-trend study to a full brand launch for a local farmers market, I enjoy building strategies that are equal parts data-driven and story-led. Bilingual in Mandarin (native) and English (fluent), with a B.S. in Public Relations from Boston University. Let&apos;s build something that resonates.</p>
   <a href="mailto:XimingLyu2026@u.northwestern.edu" class="btn-contact reveal">Contact Me</a>
 </section>
 
 <!-- ================= SERVICES ================= -->
+<!-- ================= AT A GLANCE ================= -->
+<section class="experience" id="at-a-glance" style="padding-top:0;">
+  <h2 class="section-heading reveal">At a glance</h2>
+  <div class="exp-list">
+    <div class="exp-item reveal">
+      <div class="exp-num">ED</div>
+      <div>
+        <div class="exp-role">Education</div>
+        <div class="exp-org">Northwestern Medill &middot; M.S. Integrated Marketing Communications &middot; Dec 2026 (expected) &middot; Boston University &middot; B.S. Public Relations &middot; Dean&apos;s List 2022&ndash;2024</div>
+      </div>
+    </div>
+    <div class="exp-item reveal d1">
+      <div class="exp-num">EN</div>
+      <div>
+        <div class="exp-role">Languages &amp; Tools</div>
+        <div class="exp-org">Mandarin (native) &middot; English (fluent) &middot; HubSpot &middot; R &middot; Tableau &middot; Adobe Creative Suite &middot; Final Cut Pro &middot; Figma</div>
+      </div>
+    </div>
+    <div class="exp-item reveal d2">
+      <div class="exp-num">IL</div>
+      <div>
+        <div class="exp-role">Based in Chicago</div>
+        <div class="exp-org">Open to full-time PR and integrated marketing communications roles in Chicago, starting after December 2026 graduation.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="services" id="services">
   <h2 class="section-heading reveal">Services</h2>
   <div class="services-list">
@@ -385,6 +429,68 @@
       </div>
     </div>
 
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="experience" id="experience">
+  <h2 class="section-heading reveal">Experience</h2>
+  <div class="exp-list">
+    <div class="exp-item reveal">
+      <div class="exp-num">01</div>
+      <div>
+        <div class="exp-role">CRM Strategy Consultant</div>
+        <div class="exp-org">PeacePlayers &middot; Medill IMC Immersion Quarter &middot; Washington, DC &middot; Jun &ndash; Aug 2026</div>
+        <ul class="exp-bullets">
+          <li>Segmented <strong>21,099 contacts into 6 supporter groups</strong> in R and HubSpot, so the nonprofit could tailor messaging to each audience.</li>
+          <li>Built <strong>3 live HubSpot dashboards</strong> tracking donor and supporter KPIs, and presented the final strategy to organizational leadership.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp-item reveal d1">
+      <div class="exp-num">02</div>
+      <div>
+        <div class="exp-role">Marketing Intern</div>
+        <div class="exp-org">Van Cleef &amp; Arpels L&rsquo;&Eacute;COLE School of Jewelry Arts &middot; Shanghai &middot; Jul &ndash; Aug 2024</div>
+        <ul class="exp-bullets">
+          <li>Produced and edited WeChat promotional videos generating <strong>30,000+ views</strong>.</li>
+          <li>Led guided tours at the &ldquo;Emerald World&rdquo; exhibition, which drew <strong>5,000+ visitors</strong>.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp-item reveal d2">
+      <div class="exp-num">03</div>
+      <div>
+        <div class="exp-role">Public Relations Intern, Brand Marketing</div>
+        <div class="exp-org">FleishmanHillard &middot; Shanghai &middot; May &ndash; Jul 2024</div>
+        <ul class="exp-bullets">
+          <li>Wrote and translated press releases for multiple brand campaigns, confirmed media distribution, and tracked coverage.</li>
+          <li>Managed <strong>influencer (KOL) outreach and product seeding</strong>, and led competitive analysis for the ASICS running-shoe line.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp-item reveal d3">
+      <div class="exp-num">04</div>
+      <div>
+        <div class="exp-role">PR &amp; Marketing Operations Intern</div>
+        <div class="exp-org">iQIYI North America &middot; Boston &middot; Feb &ndash; May 2024</div>
+        <ul class="exp-bullets">
+          <li>Analyzed competitor data across <strong>100+ TV shows</strong> to inform the team&rsquo;s marketing strategy.</li>
+          <li>Supported the &ldquo;Rap of China 2024&rdquo; overseas audition campaign, whose promotional videos averaged <strong>10,000 views each</strong>.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="exp-item reveal d4">
+      <div class="exp-num">05</div>
+      <div>
+        <div class="exp-role">PR &amp; Marketing Operations Intern</div>
+        <div class="exp-org">Shanghai Media Group FM 94.7 &middot; Shanghai &middot; Jan &ndash; Feb 2024</div>
+        <ul class="exp-bullets">
+          <li>Coordinated the Peking University Relay Race &mdash; <strong>30+ teams, 1,000+ participants</strong> &mdash; managing vendors for 500+ attendees.</li>
+          <li>Managed on-site execution for the New Year&rsquo;s Eve Concert (<strong>2,000 attendees, 80,000+ online viewers</strong>).</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -490,10 +596,11 @@
 <!-- ================= CONTACT ================= -->
 <section class="contact-section" id="contact">
   <h2 class="section-heading hero-heading reveal">Let&apos;s talk</h2>
-  <p class="hero-sub reveal d1" style="max-width:420px;">Open to full-time roles in brand, integrated marketing, and marketing analytics.</p>
+  <p class="hero-sub reveal d1" style="max-width:420px;">Open to full-time roles in PR, integrated marketing communications, and marketing analytics in Chicago — starting after my December 2026 graduation.</p>
   <a href="mailto:XimingLyu2026@u.northwestern.edu" class="btn-contact reveal d2">Contact Me</a>
   <div class="contact-links reveal d3">
     <a href="mailto:XimingLyu2026@u.northwestern.edu">XimingLyu2026@u.northwestern.edu</a>
+    <a href="https://www.linkedin.com/in/ximing-lyu-653293401" target="_blank" rel="noopener">LinkedIn</a>
     <span>+1 (857) 654-5355</span>
     <span>Chicago, IL</span>
   </div>
